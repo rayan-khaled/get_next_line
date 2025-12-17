@@ -30,6 +30,7 @@ It introduces the use of static variables and focuses on efficient memory manage
 char *get_next_line(int fd);
 
 **Usage Example:**
+
 int fd = open("file.txt", O_RDONLY);
 char *line;
 while ((line = get_next_line(fd)))
